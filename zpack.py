@@ -49,11 +49,6 @@ def shuffle(x,table):
     except TypeError:
         print("Invalid argument. X is required to be int, got {}".format(type(x)))
 
-def keyPress(key,interval):
-    py.keyDown(key)
-    time.sleep(interval)
-    py.keyUp(key)
-
 def removedups(mylist):
     return list(dict.fromkeys(mylist))
 
