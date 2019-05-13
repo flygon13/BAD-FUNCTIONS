@@ -8,7 +8,8 @@ nothing fancy all the functions are extremely basic and can be improved upon
 no idea how github works and hopes this allows me to use my functions on school computers
 
 
-#-FUNCTIONS
+# FUNCTIONS
+
 usable = All characters from strings but whitespace. For passwords and crap
 
 ln = Prints an empty line. Supposed to cut down typing time for text based programs
