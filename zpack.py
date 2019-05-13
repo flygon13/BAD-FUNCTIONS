@@ -2,17 +2,7 @@ import string
 import random as ran
 import pyautogui,time,os,winsound
 
-# usable -- VAR -- All characters but whitespace. For passwords and crap.
-# ln -- FN -- Prints an empty line. Supposed to cut down typing time for text based programs.
-# abscheck -- FN -- Returns True or False depending if the abs() of x is the same as x. Intended to check if x is a negative to make adding different paths in programs easier.
-# shuffle -- FN -- shuffles a table like a deck of cards. x = number of times a random item is moved to a random place.
-# move -- FN -- moves the index,x, to index y in table.
-# isint -- FN -- returns false is x is not an int, returns true if x is an int. Compares x to 1.
-# keyPress -- FN -- Wrap for pyautogui's keyDown() and keyUp() like pyautogui's press function but key is held down for the interval parameter
-# removedups -- FN -- remove duplicate items in a list
-# reverse -- FN -- reverse a string
-# clear -- FN -- clear the console
-# osuser -- VAR -- easy access to the currently logged on user so you won't need to make a variable and can user it in paths
+# More functions soon!
  
 __all__ = ["usable","ln","abscheck","shuffle","move","isint","keyPress","removedups","reverse","clear","osuser","countdown"]
 
