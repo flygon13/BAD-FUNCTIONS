@@ -4,7 +4,7 @@ import pyautogui,time,os,winsound
 
 # More functions soon!
  
-__all__ = ["usable","ln","abscheck","shuffle","move","isint","keyPress","removedups","reverse","clear","osuser","countdown"]
+__all__ = ["usable","ln","abscheck","shuffle","move","isint","isnum","removedups","reverse","clear","osuser","countdown","listgen"]
 
 ## epic public variables ##
 usable = string.digits + string.ascii_letters + string.punctuation
@@ -71,5 +71,13 @@ def countdown(minutes,seconds,soundtoggle):
     else:
         print("COUNTDOWN COMPLETED")
     
+def listgen(parent,length):
+    if len(parent) == 0:
+        return "parent list empty"
+    else:
+        l = []
+        for i in range(length):
+            l.append(ran.choice(parent))
+        return l
 
 
