@@ -25,8 +25,14 @@ ln = Prints an empty line. Supposed to cut down typing time for text based progr
 abscheck = Returns true if int/float is negative returns false if positive.
 
 shuffle = Shuffles a list using random. X parameter is the number of times the function takes an item and moves it.
+```python
+import zpack as z
+list = [1,2,3,4,5]
+print(z.shuffle(list))
+```
+output would be a scrambled version of the list var
 
-move = Moves the index x to index y in table.
+move = Moves the index x to index y in list.
 
 isint = Compares x to 1 and returns true if x is an int.
 
@@ -39,8 +45,16 @@ reverse = Reverse a string.
 clear = Clear the console. Doesn't work in some cases like running the script in IDLE.
 
 listgen = Generates a new list from random items in the parent parameter and has the length of the length parameter.
+```python
+import zogpack as z
+import random
+items = ["sword","potion","rock","stick","shield"]
 
-## NOTES
+chest = z.listgen(items,random.choice([2,3,4]))
+print(chest)
+```
+
+# Notes
 Pull requests are welcome :D
 Obviously more functions are coming soon.
 Thanks for looking!
