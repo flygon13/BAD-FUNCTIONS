@@ -1,35 +1,46 @@
-# zpack
-collection of simple functions that I use commonly
+# ZPACK
+zpack is a collection of simple functions that I use commonly.
+It's a few very small homemade functions to cut down on typing time and line usage.
+Nothing fancy all the functions are extremely basic and can be improved upon.
+No idea how github works and hopes this allows me to use my functions on school computers.
 
-very small homemade functions to cut down on typing time and line usage
+##Installation and usage
+Currently there isn't a setup file but it's really easy to use.
+You can either put it in the same folder as the script your writing is in or you can put it in the Lib folder.
+Just find the python folder and put in the Lib folder. Pretty simple.
+Importing in a simple should be just like this:
+```python
+import zpack
+```
+Unless you changed the script name of course.
 
-nothing fancy all the functions are extremely basic and can be improved upon
+# Functions and Variables
 
-no idea how github works and hopes this allows me to use my functions on school computers
+usable = All characters from strings lib but whitespace.
 
+osuser = Easy access to the currently logged on user so you won't need to make a variable and can user it in paths.
 
-# FUNCTIONS
+ln = Prints an empty line. Supposed to cut down typing time for text based programs.
 
-usable = All characters from strings but whitespace. For passwords and crap
+abscheck = Returns true if int/float is negative returns false if positive.
 
-ln = Prints an empty line. Supposed to cut down typing time for text based programs
+shuffle = Shuffles a list using random. X parameter is the number of times the function takes an item and moves it.
 
-abscheck = Returns true if int/float is negative returns false if positive
+move = Moves the index x to index y in table.
 
-shuffle = shuffles a list using random. x is the number of times the function takes an item and moves it
+isint = Compares x to 1 and returns true if x is an int.
 
-move = moves the index x to index y in table
+isnum = Returns true if an int or a float, return false if neither.
 
-isint = compares x to 1 and returns true if x is an int
+removedups = Remove duplicate items in a list.
 
-removedups = remove duplicate items in a list
+reverse = Reverse a string.
 
-reverse = reverse a string
+clear = Clear the console. Doesn't work in some cases like running the script in IDLE.
 
-clear = clear the console
+listgen = Generates a new list from random items in the parent parameter and has the length of the length parameter.
 
-osuser = easy access to the currently logged on user so you won't need to make a variable and can user it in paths
-
-there's no setup file to move it to your Lib folder or anything so you gotta do that yourself sorry
-
-thanks for looking
+## NOTES
+Pull requests are welcome :D
+Obviously more functions are coming soon.
+Thanks for looking!
