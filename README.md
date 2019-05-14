@@ -4,7 +4,7 @@ It's a few very small homemade functions to cut down on typing time and line usa
 Nothing fancy all the functions are extremely basic and can be improved upon.
 No idea how github works and hopes this allows me to use my functions on school computers.
 
-##Installation and usage
+## Installation and usage
 Currently there isn't a setup file but it's really easy to use.
 You can either put it in the same folder as the script your writing is in or you can put it in the Lib folder.
 Just find the python folder and put in the Lib folder. Pretty simple.
