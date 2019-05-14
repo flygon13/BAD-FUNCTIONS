@@ -8,7 +8,7 @@ No idea how github works and hopes this allows me to use my functions on school 
 Currently there isn't a setup file but it's really easy to use.
 You can either put it in the same folder as the script your writing is in or you can put it in the Lib folder.
 Just find the python folder and put in the Lib folder. Pretty simple.
-Importing in a simple should be just like this:
+Importing in a script should be just like this:
 ```python
 import zpack
 ```
