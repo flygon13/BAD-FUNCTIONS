@@ -4,13 +4,12 @@ import pyautogui,time,os,winsound
 
 # More functions soon!
  
-__all__ = ["usable","ln","abscheck","shuffle","move","isint","isnum","removedups","reverse","clear","osuser","countdown","listgen"]
+__all__ = ["usable","ln","abscheck","shuffle","move","isint","isnum","removedups","reverse","clear","osuser","countdown","listgen","keyPress"]
 
 ## epic public variables ##
 usable = string.digits + string.ascii_letters + string.punctuation
 osuser = os.getlogin()
-####################
-        
+####################   
 def ln():
     print("")#built for from zogpack import *
     
@@ -36,6 +35,12 @@ def isint(x):
         return True
     else:
         return False
+    
+def isnum(x):
+    if type(x) == type(1) or type(x) == type(0.1)
+		return True
+	else:
+		return False
 
 def shuffle(x,table):
     try:
@@ -80,4 +85,12 @@ def listgen(parent,length):
             l.append(ran.choice(parent))
         return l
 
+try:
+    import pyautogui
+    def keyPress(key,interval):
+        py.keyDown(key)
+        time.sleep(interval)
+        py.keyUp(key)
+except ImportError:
+    pass
 
