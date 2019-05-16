@@ -1,6 +1,6 @@
 import string
 import random as ran
-import pyautogui,time,os,winsound
+import time,os,winsound
 
 # More functions soon!
  
@@ -11,7 +11,7 @@ usable = string.digits + string.ascii_letters + string.punctuation
 osuser = os.getlogin()
 ####################   
 def ln():
-    print("")#built for from zogpack import *
+    print()#built for from zogpack import *
     
 def abscheck(x):
     if abs(x) == int(x):
@@ -37,22 +37,22 @@ def isint(x):
         return False
     
 def isnum(x):
-    if type(x) == type(1) or type(x) == type(0.1)
-		return True
-	else:
-		return False
+    if type(x) == type(1) or type(x) == type(0.1):
+	return True
+    else:
+	return False
 
 def shuffle(x,table):
-    try:
+    if isint(x) == True:
         if x == 0:
-            print("Can't shuffle 0 times, it's pointless")
+            print("cannot shuffle 0 times")
         else:
             for y in range(x):
                 i = ran.randint(0,len(table)-1)
                 p = ran.randint(0,len(table)-1)
                 move(i,p,table)
-    except TypeError:
-        print("Invalid argument. X is required to be int, got {}".format(type(x)))
+    else:
+        raise TypeError("Expected type: int, got {}".format(type(x)))
 
 def removedups(mylist):
     return list(dict.fromkeys(mylist))
