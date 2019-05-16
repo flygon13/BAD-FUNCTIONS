@@ -54,6 +54,11 @@ chest = z.listgen(items,random.choice([2,3,4]))
 print(chest)
 ```
 
+# Updates
+I'm gonna call the first release 0.0 and the first update 0.1.
+
+0.1 added -- 5/16/2019 -- listgen and isnum are added and a few changes are made. keyPress is added back once I realized I could just use try and except.
+
 # Notes
 Pull requests are welcome :D
 Obviously more functions are coming soon.
